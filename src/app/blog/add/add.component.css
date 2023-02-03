@@ -1,0 +1,32 @@
+.add-blog-page {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.add-blog-title {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type=text], input[type=date], textarea, input[type=file] {
+    width: 100%;
+    padding: 12px 20px
+}
